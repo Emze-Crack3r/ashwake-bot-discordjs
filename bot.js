@@ -2,7 +2,7 @@ const { Client, Intents } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MEMBERS] });
 const { token } = require('./config.json'); // STEP 1. Make sure to include your bot token from Discord in the config.json file.
 
-const WELCOME_CHANNEL_ID = 'YOUR WELCOME CHANNEL ID HERE'; // STEP 2. Copy the channel ID of where you want the bot to welcome new members here.
+const WELCOME_CHANNEL_ID = '1266665682100027462'; // STEP 2. Copy the channel ID of where you want the bot to welcome new members here.
 
 console.log('Starting bot, please give me a second.');
 client.on('ready', () => {
